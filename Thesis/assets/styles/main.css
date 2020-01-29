@@ -1,0 +1,113 @@
+@font-face{
+    font-family: Roboto-Black;
+    src: url('../fonts/Roboto-Black.ttf');
+}
+@font-face{
+    font-family: Roboto-Medium;
+    src: url('../fonts/Roboto-Medium.ttf');
+}
+@font-face{
+    font-family: Roboto-Thin;
+    src: url('../fonts/Roboto-Thin.ttf');
+}
+@font-face{
+    font-family: Roboto-Bold;
+    src: url('../fonts/Roboto-Bold.ttf');
+}
+@font-face{
+    font-family: Roboto-Light;
+    src: url('../fonts/Roboto-Light.ttf');
+}
+.bolden{
+    font-family: Roboto-Black;
+}
+body{
+    font-family: Roboto-Light;
+    background-image: url('../images/maxresdefault.jpg');
+    background-position: top left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white
+}
+.nav-logo{
+    max-height: 50px;
+    max-width: 50px;
+}
+.home-nav{
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+    justify-content: space-between;
+}
+.home-nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 0;
+    min-width: 30%;
+    color: white;
+    font-family: Roboto-Light;
+}
+.nav-logo{
+    font-size: 30px;
+    color: white;
+}
+.nav-toggle{
+    color: white;
+    padding-right: 3%;
+    font-size: 30px;
+}
+.nav-toggle::after{
+    content: '\2261';
+
+}
+.home-row{
+min-width: 100%;
+display: flex;
+justify-content: space-around;
+min-height: 80vh;
+margin-top: 10%;
+
+}
+.home-greeting{
+    max-width: 33%;
+}
+.sign-up{
+    min-width: 33%;
+}
+.sign-up-form{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    min-height: 80%;
+}
+.sign-up-form > input, .sub-button{
+    min-height: 50px;
+    background: transparent;
+    color: white;
+    font-family: Roboto-Black;
+    font-size: 1.3rem;
+}
+.sub-button:hover{
+    height: 50px;
+    font-size: 1.3rem;
+    background: white;
+    color: black;
+    font-family: Roboto-Black;
+}
+.sign-up-form > input::placeholder {
+    color: white;
+    font-size: 1.3rem;
+    opacity: 1;
+  }
+  
+  .sign-up-form > input:-ms-input-placeholder {
+    color: white;
+    font-size: 1.3rem;
+  }
+  
+  .sign-up-form > input::-ms-input-placeholder {
+    color: white;
+    font-size: 1.3rem;
+  }
